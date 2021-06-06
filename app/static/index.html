@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='pl'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>AjaxIRC</title>
+
+    <link rel='stylesheet' href='style/main.css'>
+    <link rel='stylesheet' href='https://drive.google.com/uc?export=view&id=1nyFuLYcTMdjIXH8WIz7_PXaUlePm1fiB'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.13.1/css/OverlayScrollbars.css">
+
+    <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+    <script src='lib/jquery.cssemoticons.min.js'></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.13.1/js/OverlayScrollbars.min.js"></script>
+    <script src='js/index.js'></script>
+</head>
+
+<body>
+    <main>
+        <iframe name='frame'></iframe>
+        <div id='messages'></div>
+
+        <form id='form' method='POST' action='/send' target='frame'>
+            <input type='text' id='message'>
+        </form>
+    </main>
+</body>
+
+</html>
