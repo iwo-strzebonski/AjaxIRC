@@ -20,9 +20,9 @@ iframe {
 }
 
 #messages {
-    width: calc(70% - 8px);
+    width: auto;
     height: 500px;
-    margin: 5% 15% 0 15%;
+    margin: 8px 15% 4px 15%;
     border: 4px solid black;
     overflow-y: hidden;
     word-wrap: break-word;
@@ -30,6 +30,11 @@ iframe {
 
 #message {
     width: calc(70% - 12px);
-    margin: 4px 15% 0 15%;
+    margin: 8px 15% auto 15%;
     border: 4px solid black;
+}
+
+#time {
+    text-align: center;
+    margin-left: 15%;
 }
